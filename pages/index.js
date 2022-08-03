@@ -55,13 +55,13 @@ export default function Home() {
               htmlFor="email" 
               label="Email Address"
             >
-              <TextInput type="text" name="email" id="email" />
+              <TextInput type="email" name="email" id="email" required />
             </FormField>
             <FormField 
               htmlFor="username" 
               label="Username"
             >
-              <TextInput name="username" id="username" />
+              <TextInput name="username" id="username" required  />
             </FormField>
             <Button disabled={state === 'pending'} fill="horizontal" type="submit" primary label="Reserve now" />
           </Form>
