@@ -60,6 +60,7 @@ export default function Home() {
             <FormField 
               htmlFor="username" 
               label="Username"
+              info="Lowercase letters, numbers and _ only."
             >
               <TextInput name="username" id="username" required  />
             </FormField>

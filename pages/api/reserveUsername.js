@@ -14,9 +14,9 @@ export default async function handler(req, res) {
     res.status(400).json({ msg: 'Invalid email address.'})
     return
   }
-  if (String(username).length == 0 || !String(username).match(/^[a-zA-Z0-9_]+$/) && username.length < 40) {
+  if (String(username).length == 0 || !String(username).match(/^[a-z0-9_]+$/) && username.length < 40) {
     // invalid username
-    res.status(400).json({msg: 'Invalid username. Only letters, numbers and underscores allowed. Must be less than 40 characters.'})
+    res.status(400).json({msg: 'Invalid username. Only lowercase letters, numbers and underscores allowed. Must be less than 40 characters.'})
     return
   }
 
