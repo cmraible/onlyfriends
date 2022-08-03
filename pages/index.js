@@ -76,7 +76,7 @@ export default function Home() {
           <meta name="description" content="No ads. No AI. Only friends." />
         </Head>
         <Main align="center" background="black" full style={{minHeight: '100vh'}}>
-          <Heading textAlign="center" size="large">We'll be in touch.</Heading>
+          <Heading textAlign="center" size="large">We&apos;ll be in touch.</Heading>
         </Main>
       </div>
     )
