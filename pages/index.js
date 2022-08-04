@@ -46,7 +46,7 @@ export default function Home() {
         </Head>
         <Main align="center" background="black" full style={{minHeight: '100vh'}}>
           <Heading textAlign="center" size="large">No ads. No AI. Only friends.</Heading>
-          <Heading level={2} textAlign="center" size="large">$15 / month</Heading>
+          <Heading level={2} textAlign="center" size="large">$<strike>15</strike> 5 / month</Heading>
           <Heading level={2} textAlign="center">Reserve your username today:</Heading>
           { error && (<Heading textAlign="center" color="red" level={2}>{error.msg}</Heading>)}
           <Form
