@@ -91,7 +91,7 @@ export default function Home() {
                 <Paragraph size="large">It&apos;s the incentives the ads create.</Paragraph>
               </Box>
             </Box>
-            <Box pad="xlarge" align="center" justify="center" background="url(friends-4.jpg)" width="100%" style={{minHeight: '100vh'}}>
+            <Box pad="xlarge" align="center" justify="center" background="url(friends-2.jpg)" width="100%" style={{minHeight: '100vh'}}>
               <Box align="start" pad="medium" round background={{color: "black", opacity: 0.7}}>
                 <Paragraph size="large">You see, to target you with ads...</Paragraph>
                 <Paragraph size="large"><strong>They have to spy on you.</strong></Paragraph>
@@ -101,7 +101,7 @@ export default function Home() {
 
               </Box>
             </Box>
-            <Box align="center" pad="xlarge" justify="center" background="url(friends-2.jpg)" width="100%" style={{minHeight: '100vh'}}>
+            <Box align="center" pad="xlarge" justify="center" background="url(friends.jpg)" width="100%" style={{minHeight: '100vh'}}>
               <Box align="start" pad="medium" round background={{color: "black", opacity: 0.7}}>
                 <Paragraph size="large" color="white">Imagine a world...</Paragraph>
                 <Paragraph size="large" color="white">in which social media companies...</Paragraph>
