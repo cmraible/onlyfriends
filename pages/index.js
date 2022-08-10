@@ -79,16 +79,16 @@ export default function Home() {
             <Box pad="xlarge" align="center" justify="center" background="url(friends-3.jpg)" width="100%" style={{minHeight: '100vh'}}>
               <Box align="start" pad="medium" round background={{color: "black", opacity: 0.7}}>
                 <Paragraph size="large">What do Facebook, Twitter, Tiktok, Snapchat, Instagram and LinkedIn all have in common?</Paragraph>
-                <Paragraph size="large">You aren't the customer; you're the product.</Paragraph>
+                <Paragraph size="large">You aren&apos;t the customer; you're the product.</Paragraph>
                 <Paragraph size="large">Their customers are advertisers — not you.</Paragraph>
               </Box>
             </Box>
             
             <Box pad="xlarge" align="center" justify="center" background="url(friends-4.jpg)" width="100%" style={{minHeight: '100vh'}}>
               <Box align="start" pad="medium" round background={{color: "black", opacity: 0.7}}>
-                <Paragraph size="large">"But I don't mind seeing an ad every now and then!"</Paragraph>
-                <Paragraph size="large">The ads aren't the point.</Paragraph>
-                <Paragraph size="large">It's the incentives the ads create.</Paragraph>
+                <Paragraph size="large">"But I don&apos;t mind seeing an ad every now and then!"</Paragraph>
+                <Paragraph size="large">The ads aren&apos;t the point.</Paragraph>
+                <Paragraph size="large">It&apos;s the incentives the ads create.</Paragraph>
               </Box>
             </Box>
             <Box pad="xlarge" align="center" justify="center" background="url(friends-4.jpg)" width="100%" style={{minHeight: '100vh'}}>
@@ -96,7 +96,7 @@ export default function Home() {
                 <Paragraph size="large">You see, to target you with ads...</Paragraph>
                 <Paragraph size="large"><strong>They have to spy on you.</strong></Paragraph>
                 <Paragraph size="large">And they have to be <strong>addictive</strong>, so you come back.</Paragraph>
-                <Paragraph size="large">That's why they're always changing —</Paragraph>
+                <Paragraph size="large">That&apos;s why they're always changing —</Paragraph>
                 <Paragraph size="large">Optimizing for addiction.</Paragraph>
 
               </Box>
@@ -119,14 +119,14 @@ export default function Home() {
             <Box pad="xlarge" align="center" justify="center" background="url(friends-5.jpg)" width="100%" style={{minHeight: '100vh'}}>
               <Box align="start" pad="medium" round background={{color: "black", opacity: 0.7}}>              
                 <Paragraph size="large">Onlyfrends.lol is a place for you and your friends.</Paragraph>
-                <Paragraph size="large">It's a place to share ideas, thoughts, pictures, videos, you name it.</Paragraph>
+                <Paragraph size="large">It&apos;s a place to share ideas, thoughts, pictures, videos, you name it.</Paragraph>
                 <Paragraph size="large">Everyone is welcome to join onlyfriends for a small monthly fee.</Paragraph>
                 <Paragraph size="large">Note: You're exchanging money for a service. That makes you a <strong>customer</strong>!</Paragraph>
               </Box>
             </Box>
             <Box pad="xlarge" align="center" justify="center" background="url(friends-7.jpg)" width="100%" style={{minHeight: '100vh'}}>
               <Box align="start" pad="medium" round background={{color: "black", opacity: 0.7}}>              
-                <Paragraph size="large">We don't care <i>what</i> you're into. We just want you to have a good time here...</Paragraph>
+                <Paragraph size="large">We don&apos;t care <i>what</i> you&apos;re into. We just want you to have a good time here...</Paragraph>
                 <Paragraph size="large">So you keep paying us money. It's a pretty simple relationship.</Paragraph>
               </Box>
             </Box>
