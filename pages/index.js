@@ -101,7 +101,7 @@ export default function Home() {
 
               </Box>
             </Box>
-            <Box align="center" pad="xlarge" justify="center" background="url(friends.jpg)" width="100%" style={{minHeight: '100vh'}}>
+            <Box align="center" pad="xlarge" justify="center" background="url(friends-8.jpg)" width="100%" style={{minHeight: '100vh'}}>
               <Box align="start" pad="medium" round background={{color: "black", opacity: 0.7}}>
                 <Paragraph size="large" color="white">Imagine a world...</Paragraph>
                 <Paragraph size="large" color="white">in which social media companies...</Paragraph>
