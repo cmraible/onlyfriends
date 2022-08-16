@@ -49,7 +49,7 @@ export default function Home() {
           <Box pad="small" align="center" style={{minHeight: '100vh'}} background="url(friends.jpg)">
             <Paragraph>Social media like it should be.</Paragraph>
             <Heading textAlign="center" size="large" margin="none">No ads. No AI. Only friends.</Heading>
-            <Heading level={2} textAlign="center" size="large">$5 / month</Heading>
+            <Heading level={2} textAlign="center" size="large">$1 / month</Heading>
             <Box background={{color: "black", opacity: 0.7}} round pad="medium" >
               <Heading level={2} textAlign="center">Reserve your username now:</Heading>
               { error && (<Heading textAlign="center" color="red" level={2}>{error.msg}</Heading>)}
