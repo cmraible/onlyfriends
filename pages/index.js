@@ -1,7 +1,6 @@
 import { Box, Button, Form, FormField, Heading, Main, TextInput, Paragraph } from 'grommet';
 import Head from 'next/head';
 import { useState } from 'react';
-import { event } from "nextjs-google-analytics";
 import { withTheme } from 'styled-components';
 
 
@@ -23,7 +22,6 @@ export default function Home() {
       const status = await res.status;
       if (status === 201) {
         setState('success')
-        event("reserved_username")
       } else {
         const error = await res.json()
         setState('error')
