@@ -1,7 +1,6 @@
-import { Box, Button, Form, FormField, Heading, Main, TextInput, Paragraph } from 'grommet';
+import { Box, Button, Form, FormField, Heading, Main, TextInput, Paragraph, Video } from 'grommet';
 import Head from 'next/head';
 import { useState } from 'react';
-import { withTheme } from 'styled-components';
 
 
 export default function Home() {
@@ -152,13 +151,6 @@ export default function Home() {
                 <Button disabled={state === 'pending'} fill="horizontal" type="submit" color="white" primary label="Reserve now" />
               </Form>
             </Box>
-
-            
-
-
-
-
-
 
 
           </Box>
